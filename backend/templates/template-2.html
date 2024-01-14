@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+</head>
+<body>
+  <style>
+    body {
+      max-width: 1270px;
+      margin: 0 auto;
+    }
+    .name{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .aboutme,.work {
+      width: 50%;
+      margin: 0 auto;
+    }
+    main{
+      display: flex;
+    }
+    .vertical-line{
+      width: 0.025rem;
+      height: auto;
+      background-color: black;
+    }
+    .aboutme{
+      padding-inline: 2rem;
+      padding-top: 0.75rem;
+    }
+    .work{
+      padding-inline: 2rem;
+      padding-top: 0.75rem;
+    }
+    .education {
+      margin-top: 2rem;
+      padding-inline: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="name">
+    <h3>Hello my name is</h3>
+    <h1>
+      <i>
+        -NAME-
+      </i>
+    </h1>
+  </div>
+  <hr>
+  <main>
+    <section class="aboutme">-ABOUTME-</section>
+    <div class="vertical-line"></div>
+    <section class="work">-WORK-</section>
+  </main>
+  <section class="education">-EDUCATION-</section>
+</body>
+</html>
